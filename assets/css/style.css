@@ -26,6 +26,9 @@
 /******************************************************************************
     Global styles
 */
+html{
+    scroll-behavior: smooth;
+}
 body {
     font-family: 'Santio-bold';
 }
