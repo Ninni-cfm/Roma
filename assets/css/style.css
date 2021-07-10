@@ -4,9 +4,9 @@
     Font: Santio bold, Roboto, Charm (Mr Dafoe was replaced by Charm!)
     Colors: #e7bc0e  / #efefef / #6bc1a3 / #cb91b6 / #7eb8e1 / #000 / #fff
 */
-@font-face {    font-family: 'Santio-Bold'; src: url('../fonts/Santio/Santio-Bold.ttf');        }
-@font-face {    font-family: 'Roboto';      src: url('../fonts/Roboto/Roboto-Regular.ttf');     }
-@font-face {    font-family: 'Charm-Bold';  src: url('../fonts/Charm/Charm-Bold.ttf');   }
+@font-face {    font-family: 'Santio-Bold'; src: url('../fonts/Santio/Santio-Bold.ttf');    }
+@font-face {    font-family: 'Roboto';      src: url('../fonts/Roboto/Roboto-Regular.ttf'); }
+@font-face {    font-family: 'Charm-Bold';  src: url('../fonts/Charm/Charm-Bold.ttf');      } 
 
 
 /******************************************************************************
@@ -24,10 +24,7 @@ html{
     scroll-behavior: smooth;
 }
 body {
-    font-family: 'Santio-Bold';
-}
-section {
-    min-height: 100vh;
+    font-family: 'Santio-Bold', sans-serif;
 }
 a {
     text-decoration: none;
@@ -64,7 +61,7 @@ Header
 */
 header {
     padding: 1% 10%;
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-size: 1.2em;
     letter-spacing: 2px;
     font-weight: 600;
@@ -94,14 +91,14 @@ header a {
 }    
 .cleos > div:last-of-type {
     padding-top: 5vh;
-    font-family: 'Charm';
+    font-family: 'Charm', cursive;
     font-size: 5vh;
     font-style: italic;
-    color: #e7bc0e;
     letter-spacing: -2px;
+    color: #e7bc0e;
 }
 .cleos > div > span {
-    font-family: 'roboto';
+    font-family: 'roboto', sans-serif;
 }
 
 /*-----------------------------------------------------------------------------
@@ -183,14 +180,14 @@ header a {
 #donate p {
     width: 80%;
     font-size: 8vh;
-    padding-bottom: 10%;
+    padding-bottom: 5%;
 }
 #donate a {
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-size: 4vh;
     color: #efefef;
     padding: 2.5% 5%;
-    border: 1px solid #efefef;
+    border: 3px solid #efefef;
     transition: 0.5s;
 }
 #donate a:hover {
@@ -205,7 +202,7 @@ footer {
     background: black;
     color: #efefef;
     text-align: center;
-    padding-bottom: 2%;
+    padding: 20% 0 2%;
 }
 
 footer a {
