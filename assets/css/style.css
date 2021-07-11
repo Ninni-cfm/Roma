@@ -20,7 +20,7 @@ Global styles
     padding: 0;
 }
 html{
-    /* smooth scrolling sahould be a must-have */
+    /* smooth scrolling should be a must-have */
     scroll-behavior: smooth;
 }
 body {
