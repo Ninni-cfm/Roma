@@ -162,8 +162,10 @@ header a {
 
 /******************************************************************************
     Section 2: empty content, but overlayed background images!
+    Because we have no content we have to provide a height!
 */
 .family {
+    height: 100vh;
     background: 
         url(../img/kid.png) bottom/cover no-repeat, 
         url(../img/see.png) bottom/cover no-repeat;
